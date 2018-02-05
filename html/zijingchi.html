@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>资金统计</title>
+	<link rel="stylesheet" href="../components/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/adminLTE.min.css">
+	<script src="../components/echarts.min.js"></script>
+	<script src="../components/My97DatePicker/calendar.js"></script>
+	<script src="../components/My97DatePicker/WdatePicker.js"></script>
+  <script src="../components/sweetalert.js"></script>
+</head>
+<body style="background-color:#ecf0f5;" marginwidth="0">
+      <form name="Form1" method="post" action="bankList.aspx" id="Form1">
+     <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="box">
+                <div class="box-body">
+                    <div class="form-inline" style="text-align:right; padding-right:20px;">
+             <a class="btn bg-purple btn-sm" href="../html/zijingchi-add.html">+增加</a>
+                                  
+                  </div>
+                </div>
+                <div class="box-body">
+                  <table class="table table-bordered">
+                    <tbody><tr>
+                      <th style="width: 50px">序号</th>
+                      <th>银行名称</th>
+                      <th>出入账</th>
+                      <th>账号</th>
+                      <th>备注</th>
+                      <th>余额</th>
+                      <th>操作</th>
+                    </tr>
+                        
+                    <tr class="change">
+                      <td>1  </td>
+                      <td>微信</td>
+                      <td>出账</td>
+                      <td>02553</td>
+                      <td>现金</td>
+                      <td style="font-size:14px; color:green">0</td>
+                   
+                      <td style="text-align:center"><a class="btn  btn-warning btn-xs" href="../html/shoukuanmingxi.html">收款明细</a>&nbsp;&nbsp;
+                           <a class="btn btn-success btn-xs" href="../html/zijingchi-add.html">编辑</a>&nbsp;&nbsp;
+                            <a class="btn btn-danger btn-xs" onclick="del()">删除</a>&nbsp;&nbsp;
+                      </td>
+                    </tr>
+
+                    <tr class="change">
+                      <td>2  </td>
+                      <td>请选择</td>
+                      <td>出账</td>
+                      <td>88888</td>
+                      <td>现金</td>
+                      <td style="font-size:14px; color:green">0</td>   
+                      <td style="text-align:center"><a class="btn  btn-warning btn-xs" href="../html/shoukuanmingxi.html">收款明细</a>&nbsp;&nbsp;
+                           <a class="btn btn-success btn-xs" href="../html/zijingchi-add.html">编辑</a>&nbsp;&nbsp;
+                            <a class="btn btn-danger btn-xs" onclick="del()">删除</a>&nbsp;&nbsp;
+                      </td>
+                    </tr>
+                  </tbody></table>
+                </div>
+                <div class="box-footer clearfix">
+                  <ul class="pagination pagination-sm no-margin pull-right">
+
+                  </ul>
+                </div>
+              </div>
+            </div>       
+        </div>
+           </section>
+   </form>
+        <script type="text/javascript">
+            function del(){
+              swal({ 
+                title: "确定删除吗？", 
+                text: "你将无法恢复！", 
+                type: "warning",
+                showCancelButton: true, 
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "确定删除！", 
+                closeOnConfirm: false
+              });
+            }
+         </script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>每月报表</title>
+	<link rel="stylesheet" href="../components/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/adminLTE.min.css">
+    <link rel="stylesheet" href="../components/ionicons-2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="../components/font-awesome-4.7.0/css/font-awesome.min.css">
+	<script src="../components/echarts.min.js"></script>
+</head>
+<body style="background-color: #ecf0f5;">
+	<section class="content">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="box">
+                <div class="box-body">
+                    <div class="form-inline">
+
+         年份：
+                            <select name="drop_year" id="drop_year" class="form-control" style="width:150px; height:30px;">
+    <option value="2017">2017</option>
+    <option selected="selected" value="2018">2018</option>
+    <option value="2019">2019</option>
+    <option value="2020">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <option value="2024">2024</option>
+    <option value="2025">2025</option>
+    <option value="2026">2026</option>
+    <option value="2027">2027</option>
+
+</select> 
+                         &nbsp;&nbsp;<input type="submit" name="btn_search" value="统 计" id="btn_search" class="btn bg-purple btn-sm">
+                      
+         
+                    </div>
+                </div>
+
+                 <div class="box-body" style="margin-top:5px;">
+                <div id="main" style="height: 400px;width: 100%"></div>
+                            <script type="text/javascript">
+                                    function main() {
+                                        // 基于准备好的dom，初始化echarts图表
+                                        var myChart = echarts.init(document.getElementById('main'));
+
+                                        var option = {
+                                            color: [
+                                            '#44B7D3', '#E42B6D'
+                                            ],
+                                            title: {
+                                                text: '',
+                                                subtext: ''
+                                            },
+                                            tooltip: {
+                                                trigger: 'axis'
+                                            },
+
+                                            legend: {
+                                                data: ['放款总额', '实收总额']
+                                            },
+                                            toolbox: {
+                                                show: false,
+                                                feature: {
+                                                    //mark: { show: true },
+                                                    //dataView: { show: true, readOnly: false },
+                                                    //magicType: { show: true, type: ['line', 'bar'] },
+                                                    //restore: { show: true },
+                                                    //saveAsImage: { show: true }
+                                                }
+                                            },
+                                            calculable: true,
+                                            xAxis: [
+                                                {
+                                                    type: 'category',
+                                                    data: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月']
+                                    }
+                                ],
+                                yAxis: [
+                                    {
+                                        type: 'value'
+                                    }
+                                ],
+
+                                series: [
+                                    {
+                                        name: '放款总额',
+                                        type: 'bar',
+                                        itemStyle: {
+                                            normal:
+                                            {
+                                                label: {
+                                                    show: true,
+                                                    position: 'top'
+                                                }
+                                            }
+                                        },
+                                        data: [12335217,0,0,0,0,0,0,0,0,0,0,0]
+                                    },
+                                    {
+                                        name: '实收总额',
+                                        type: 'bar',
+                                        itemStyle: {
+                                            normal:
+                                            {
+                                                label: {
+                                                    show: true,
+                                                    position: 'top'
+                                                }
+                                            }
+                                        },
+                                        data: [383600,104268,0,0,0,0,0,0,0,0,0,0]
+                                    }
+                                ]
+                            };
+
+                            // 为echarts对象加载数据
+                            myChart.setOption(option);
+                        }
+                        main();
+                </script>
+            </div>
+                  
+                  
+                  
+                  
+                  <!-- /.box-body -->
+              </div><!-- /.box -->
+            </div>       
+        </div>
+        </section>
+</body>
+</html>

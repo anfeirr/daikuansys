@@ -1,0 +1,249 @@
+/*! tita-tm - v0.0.1 - 2017-06-28 12:03 */
+.interface-title{position:relative}
+.interface-title .icon-btn{position:absolute;top:23px;right:19px}
+.interface-container{margin:20px}
+.interface-container .iterface-btn{margin-bottom:50px}
+.interface-container .iterface-btn p{font-size:16px;color:#36434D;margin:20px 0;line-height:30px}
+.interface-container .iterface-btn span{cursor:default}
+.interface-container .iterface-btn .key-btn,.interface-container .iterface-btn .secret{display:inline-block}
+.interface-container .iterface-btn [data-handler=key-obtain]{margin-left:8px}
+.interface-container .iterface-btn [data-handler=screct-obtain]{margin-left:8px}
+.interface-container .content_emptyinit{border:dashed 1px #c5c5c5;padding:30px 25px;border-radius:3px;text-align:center;font-size:22px;line-height:30px;font-family:"Helvetica Neue",Tahoma,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",STHeitiSC,sans-serif;color:#c5c5c5}
+.interface-container .content_emptyinit .className{font-size:20px;color:#667580}
+.interface-container .content_emptyinit .interface-list{margin-top:30px}
+.interface-container .content_emptyinit .interface-list li{float:left;width:33%}
+.interface-container .content_emptyinit .interface-list li h2{font-size:14px;line-height:24px;color:#667580}
+.interface-container .content_emptyinit .interface-list li p{font-size:12px;line-height:20px;color:#ACB7BF;margin:0 0 5px}
+.interface-container .creatIp-content{display:none}
+.interface-container .creatIp-content table{width:100%;font-size:14px;font-family:verdana,"Microsoft YaHei",SimHei,SimSun}
+.interface-container .creatIp-content table tr{line-height:40px;border-bottom:1px solid #E4EBF0}
+.interface-container .creatIp-content table tr:hover{background-color:#F5F8FA}
+.interface-container .creatIp-content table th{text-align:left;font-weight:400;color:#7A8C99;padding-left:10px}
+.interface-container .creatIp-content table td{padding-left:10px}
+.interface-container .creatIp-content table .modify,.interface-container .creatIp-content table .del{color:#1E8BDA}
+.interface-container .creatIp-content button{margin-bottom:20px}
+.interface-container .agreement{position:absolute;bottom:30px;font-family:"PingFang SC";font-size:12px;color:#667580;text-align:justify;line-height:1.7}
+.interface-container .agreement a{display:inline-block;font-weight:400;line-height:1.67;color:#005999}
+.interface-container .agreement a:hover{color:#1687D9}
+.manage-set-container input{border:1px solid #fff}
+.manage-set-container span{float:left;font-size:14px;color:#70808B;margin-top:5px}
+.manage-set-container .password-input{margin-left:90px;font-size:14px;line-height:24px;margin-bottom:20px}
+.manage-set-container .username-input{margin-left:90px;font-size:14px;line-height:24px;margin-bottom:20px}
+.manage-set-container p{color:#EE4344;font-size:12px;line-height:25px;position:absolute;left:0;top:30px;margin:0;display:none}
+.manage-set-container .error-prompt{border-bottom:2px solid #EE4344;position:relative}
+.tu-modal{font-family:"Microsoft YaHei"}
+.tu-modal .title-modal{font-size:16px;padding-left:10px;font-weight:400;color:#fff}
+.tt_common_emptyinit{display:none}
+.tu-btn-shadow-disabled{color:#adb8c0!important;box-shadow:none!important;transition:none!important}
+.tu-btn-shadow-disabled:hover{background-color:#e7eef3!important;box-shadow:none!important;transition:none!important}
+.displayTubtn{background-color:rgba(231,238,243,.9)!important;color:#adb8c0!important;box-shadow:none!important;transition:none!important}
+.tm-page-info{min-width:910px;position:relative}
+.tm-page-info .box-boder{border:1px solid #E3ECF1;border-radius:2px;padding:0 10px}
+.tm-page-info .block-title{padding:10px 0;line-height:30px;font-size:16px;color:#34434E;border-bottom:1px solid #E3ECF1;}
+.tm-page-info .title-icon{display:inline-block;width:30px;height:30px;line-height:30px;border-radius:50%;font-size:18px;color:#fff;text-align:center;margin:0 15px 0 5px}
+.tm-page-info__title{font-size:24px;color:#34434E;font-weight:400}
+.tm-page-info__know{position:absolute;right:20px;top:30px;color:#ACB7BF;font-size:12px;-webkit-transition:color .3s;-moz-transition:color .3s;-o-transition:color .3s;transition:color .3s}
+.tm-page-info__know span{color:#647481;font-size:12px}
+.tm-page-info__know:hover{color:#F69E17}
+.tm-page-info__know:hover span{color:#F69E17}
+.tm-page-info__know-icon{vertical-align:middle;font-size:18px}
+.tm-page-info__index{padding:20px}
+.tm-page-info__index-loading{position:relative;height:200px;margin-bottom:20px}
+.tm-page-info__index-loading img{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto}
+.tm-page-info__index-api{line-height:34px;font-size:14px;color:#647481}
+.tm-page-info__index-api-title{margin:0 15px 0 5px;color:#34434E}
+.tm-page-info__index-api-link{color:#00599B;margin-left:15px}
+.tm-invite-root{position:relative}
+.tm-invite-root__main{margin-bottom:20px}
+.tm-invite-root__main-titleicon{background-color:#8379D6}
+.tm-invite-root__main-cont{padding:15px 10px}
+.tm-invite-root__main-cont-check{position:relative;padding-left:30px;padding-top:5px;line-height:34px}
+.tm-invite-root__main-cont-check-btn{position:absolute;left:0;top:12px;font-size:18px;color:#97D0FA}
+.tm-invite-root__main-cont-check-btn:hover,.tm-invite-root__main-cont-check-btn.active{color:#1587D9}
+.tm-invite-root__main-cont-check-btn.disabled{color:#E7EEF3;cursor:default}
+.tm-tenant-info__main{margin-bottom:20px}
+.tm-tenant-info__main-titleicon{background-color:#2DAB92}
+.tm-tenant-info__main-list{padding-top:10px}
+.tm-tenant-info__main-list dd {
+  margin-left: 40px;
+}
+
+.tm-tenant-info__main-list dt{float:left;width:88px;}
+.tm-tenant-info__main-list-item{margin-bottom:15px}
+.tm-tenant-info__main-list-item-title{display:inline-block;width:90px;height:34px;line-height:34px;color:#647481;font-size:14px;background-color:#F5F8FA;border-left:3px solid #2DAB92;text-indent:10px}
+.tm-tenant-info__main-list-item-cont{margin-left:80px}
+.tm-tenant-info__main-list-item-cont p{line-height:34px;color:#34434E;font-size:14px}
+.tm-tenant-info__main-list-item-cont a{color:#00599B;margin-left:15px}
+.tm-page-serve{position:relative;min-width:910px}
+.tm-page-serve .box-boder{border-radius:2px}
+.tm-page-serve .block-title{padding:10px 0;height:30px;line-height:30px;font-size:16px;color:#34434E;border-bottom:1px solid #E3ECF1}
+.tm-page-serve .title-icon{display:inline-block;width:30px;height:30px;line-height:30px;border-radius:50%;font-size:18px;color:#fff;text-align:center;margin:0 15px 0 5px}
+.tm-page-serve__title{font-size:24px;color:#34434E;font-weight:400}
+.tm-page-serve__main{padding:25px}
+.tm-page-serve__main-loading{position:relative;height:200px;margin-bottom:20px}
+.tm-page-serve__main-loading img{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto}
+.tm-order-list__title{height:40px;line-height:40px;background-color:#F5F8FA;font-size:16px;color:#34434E;text-indent:10px}
+.tm-order-list__table{padding-top:10px}
+.tm-order-list__table-empty{padding:50px 0;font-size:18px;text-align:center;color:#647481}
+.tm-order-list__kefu{font-size:12px;line-height:20px;text-indent:10px;margin-top:10px;color:#647481}
+.tm-order-list__kefu-money{float:right;font-size:14px;color:#35434C}
+.tu-table{border-bottom:1px solid #E4EBF0}
+.tu-table table{width:100%;font-size:14px;border-spacing:0;border-collapse:collapse}
+.tu-table table tr{line-height:30px;font-family:verdana,"Microsoft YaHei",SimHei,SimSun}
+.tu-table table th{font-size:12px;color:#7A8C99}
+.tu-table tbody tr{font-size:14px;color:#35434C}
+.tu-table tbody tr a{color:#005999}
+.tu-table tbody tr:hover{background-color:#F5F8FA}
+.tu-table th{text-align:left;font-weight:400}
+.tu-table th,.tu-table td{padding:5px 10px;vertical-align:top}
+.tu-table tbody tr td{border-top:1px solid #E4EBF0;color:#36434d}
+.tm-va-serve{position:relative;padding:10px 0;border-bottom:1px solid #E3ECF1;margin-bottom:20px}
+.tm-va-serve__block{position:relative;padding-left:140px}
+.tm-va-serve__block-cont-title{font-size:20px;line-height:36px;margin-bottom:10px;color:#35434C}
+.tm-va-serve__block-cont-txt{font-size:12px;line-height:20px;margin-top:5px;margin-bottom:15px;color:#66757F}
+.tm-va-serve__block-cont-img{display:block;margin-bottom:30px;position:absolute;left:0;top:0}
+.tm-va-serve__block-cont-btn{text-align:center}
+.remindme_item_animane_info{margin-left:49px}
+.btn_remindme_blue{background-color:#509fe5;background-color:#51a1e7;background:-webkit-gradient(linear,0 0,0 100%,from(#509fe5),to(#53a4ec));background:-moz-linear-gradient(top,#509fe5,#53a4ec);background:-webkit-linear-gradient(top,#509fe5,#53a4ec);background:-o-linear-gradient(top,#509fe5,#53a4ec);background:linear-gradient(to bottom,#509fe5,#53a4ec);border:1px solid #4797de;color:#fff;font-size:12px;font-family:Helvetica Neue,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STHeitiSC,sans-serif;text-align:center;border-radius:2px;cursor:pointer;display:inline-block;width:70px;vertical-align:top;line-height:24px}
+.btn_remindme_blue:hover{text-decoration:none;color:#fff;background:#2d83cf;border:1px solid #2d83cf}
+.btn_remindme_blue:active{color:#fff}
+.btn_remindme_blue span{display:inline-block;background:url(../../images/remind_me_icons.png) -207px -12px no-repeat;width:9px;height:7px;margin-left:2px}
+.btn_remindme_default{vertical-align:top;line-height:24px;width:70px;display:inline-block;cursor:pointer;border:1px solid #ddd;background-color:#fff;border-radius:2px;color:#555;font-size:12px;font-family:Helvetica Neue,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STHeitiSC,sans-serif;text-align:center;color:#ff5b5b}
+.btn_remindme_default:hover{color:#555;border:1px solid #8a8a8a}
+.btn_remindme_default:active{color:#555}
+.btn_remindme_close{width:18px;height:18px;position:absolute;top:10px;right:10px;cursor:pointer;background:url(../../images/remind_me_icons.png) -86px -9px no-repeat}
+.btn_remindme_close:hover{background-position:-62px -9px;background-color:#fff;border-radius:2px}
+.btn_remindme_tip{font-size:12px;color:#2d83cf;cursor:pointer}
+.btn_remindme_tip:hover{color:#555}
+.btn_remindme_arrow_prev,.btn_remindme_arrow_next{display:inline-block;width:7px;height:13px;background:url(../../images/remind_me_icons.png) no-repeat}
+.btn_remindme_arrow_prev{cursor:pointer;background-position:-128px -11px}
+.btn_remindme_arrow_prev:hover{background-position:-172px -10px}
+.disable_btn_remindme_arrow_prev{cursor:default;background-position:-143px -10px}
+.disable_btn_remindme_arrow_prev:hover{background-position:-143px -10px}
+.btn_remindme_arrow_next{cursor:pointer;background-position:-114px -11px}
+.btn_remindme_arrow_next:hover{background-position:-189px -10px}
+.disable_btn_remindme_arrow_next{cursor:default;background-position:-157px -10px}
+.disable_btn_remindme_arrow_next:hover{background-position:-157px -10px}
+.remindme_widget_list_container{position:fixed;top:50px;z-index:1300;background-color:#fff7e7;border:1px solid #c5c5c5;padding:0 12px;left:50%;margin-left:-302px}
+.remindme_widget_list_container .remindme_list_container_outter{padding-right:20px;overflow:scroll}
+.remindme_widget_list_container .remindme_list_container{height:207px;overflow-y:auto}
+.remindme_widget_list_container .remindme_list_container li,.remindme_widget_list_container .remindme_list_container .remindme_list_all{height:68px;clear:both}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_animate,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_animate{width:97px;float:left;color:#ffab27;font-size:24px;font-family:Helvetica Neue,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STHeitiSC,sans-serif;line-height:75px}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_animate .icon,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_animate .icon{left:0;top:0;vertical-align:top;margin-top:0;width:60px;height:60px;display:inline-block;background:url(../../images/clock_b.gif) -4px -5px;position:absolute}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_animate .remind_title,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_animate .remind_title{margin-left:49px}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_content,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_content{width:222px;margin-left:10px;margin-right:20px;float:left;vertical-align:middle;font-size:12px}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_content .remindme_item_content_tips,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_tips{margin:16px 0 10px;color:#555;font-family:Verdana,'\5B8B\4F53','\65B0\5B8B\4F53';overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_content .remindme_item_content_tips span,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_tips span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#8a8a8a;padding-left:5px;font-family:Helvetica Neue,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STHeitiSC,sans-serif}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_content .remindme_item_content_content,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_content{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_content .remindme_item_content_type,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_type{color:#aaa;display:inline-block;margin-right:10px;font-weight:bolder;font-family:'\5B8B\4F53','\65B0\5B8B\4F53'}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_content .remindme_item_content_title,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_title{color:#145C98}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_content .remindme_item_content_title:hover,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_title:hover{color:#2D83CF}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_btn_group,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_btn_group{float:left;margin-top:21px}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_btn_group a,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_btn_group a{display:inline-block}
+.remindme_widget_list_container .remindme_list_container li .remindme_item_btn_group .btn_remindme_clear,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_item_btn_group .btn_remindme_clear{margin-right:6px}
+.remindme_widget_list_container .remindme_list_container li .remindme_all_operate,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_all_operate{line-height:68px;float:left}
+.remindme_widget_list_container .remindme_list_container li .remindme_all_operate .remindme_all_now_count,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_all_operate .remindme_all_now_count{font-size:18px;color:#555;text-align:center;display:inline-block;font-weight:bolder}
+.remindme_widget_list_container .remindme_list_container li .remindme_all_operate .btn_remindme_tip,.remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_all_operate .btn_remindme_tip{cursor:pointer;display:inline-block}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal{height:65px}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_item_animate{width:97px;float:left;height:100%}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_item_animate span{display:none}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_item_content{width:210px;margin-left:10px;float:left}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_item_btn_group{width:165px;float:left}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_item_btn_group .btn_remindme_later span{margin-left:2px}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_all_operate{height:100%}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_all_operate .btn_remindme_prev{display:none}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_all_operate .remindme_all_now_count{display:none}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_all_operate .btn_remindme_next{display:none}
+.remindme_widget_list_container .remindme_list_container .remindme_item_normal .remindme_all_operate .btn_remindme_tip{display:none}
+.remindme_widget_list_container .remindme_list_container .remindme_item_first .remindme_item_animate{width:97px;float:left;line-height:65px;height:100%}
+.remindme_widget_list_container .remindme_list_container .remindme_item_first .remindme_item_content{width:210px;margin-left:10px;float:left}
+.remindme_widget_list_container .remindme_list_container .remindme_item_first .remindme_item_btn_group{float:left}
+.remindme_widget_list_container .remindme_list_container .remindme_item_first .remindme_item_btn_group .btn_remindme_later span{margin-left:2px}
+.remindme_widget_list_container .remindme_list_container .remindme_item_first .remindme_all_operate{height:100%}
+.remindme_widget_list_container .remindme_list_container .remindme_item_first .remindme_all_operate .btn_remindme_prev{display:none}
+.remindme_widget_list_container .remindme_list_container .remindme_item_first .remindme_all_operate .remindme_all_now_count{display:none}
+.remindme_widget_list_container .remindme_list_container .remindme_item_first .remindme_all_operate .btn_remindme_next{display:none}
+.remindme_widget_list_container .remindme_list_container .remindme_item_first .remindme_all_operate .btn_remindme_tip{display:none}
+.remindme_widget_list_container .remindme_list_foot{height:50px}
+.remindme_widget_list_container .remindme_list_foot .remindme_foot_line{padding:0 26px;height:1px;border-bottom:1px solid #ddd;clear:both}
+.remindme_widget_list_container .remindme_list_foot .remindme_item_animate{width:97px;float:left;height:100%}
+.remindme_widget_list_container .remindme_list_foot .remindme_item_content{width:241px;float:left;height:100%}
+.remindme_widget_list_container .remindme_list_foot .remindme_item_btn_group{float:left;margin-top:12px}
+.remindme_widget_list_container .remindme_list_foot .remindme_item_btn_group a{display:inline-block}
+.remindme_widget_list_container .remindme_list_foot .remindme_item_btn_group .btn_remindme_later_all span{margin-left:2px}
+.remindme_widget_list_container .remindme_list_foot .remindme_all_operate{float:left}
+.remindme_widget_list_container .remindme_list_foot .remindme_all_operate .remindme_list_foot_count{margin-left:11px;margin-top:18px;color:#555;font-size:12px;display:inline-block;text-align:center}
+.remindme_widget_list_container .remindme_list_foot .remindme_all_operate .btn_remindme_tip{display:inline-block}
+.one_remindme_widget_list_container .remindme_list_container{height:auto}
+.two_remindme_widget_list_container .remindme_list_container{height:auto}
+.remindme_widget_list_container_all .remindme_list_container{height:auto}
+.remindme_widget_list_container_all .remindme_list_container li,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all{height:68px;clear:both}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_animate,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_animate{width:97px;float:left;color:#ffab27;font-size:24px;font-family:Helvetica Neue,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STHeitiSC,sans-serif;line-height:65px}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_animate .icon,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_animate .icon{left:0;top:0;vertical-align:top;margin-top:0;width:60px;height:60px;display:inline-block;background:url(../../images/clock_b.gif) -4px -5px;position:absolute}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_content,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_content{margin-left:10px;width:210px;float:left;vertical-align:middle;font-size:12px}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_content .remindme_item_content_tips,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_tips{margin:16px 0 10px;color:#555;font-family:Helvetica Neue,Tahoma,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STHeitiSC,sans-serif;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_content .remindme_item_content_tips span,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_tips span{color:#8a8a8a;padding-left:5px}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_content .remindme_item_content_type,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_type{color:#aaa;display:inline-block;margin-right:10px;font-weight:bolder}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_content .remindme_item_content_title,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_title{color:#145C98}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_content .remindme_item_content_title:hover,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_content .remindme_item_content_title:hover{color:#2D83CF}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_btn_group,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_btn_group{float:left;margin-top:21px}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_item_btn_group a,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_item_btn_group a{display:inline-block}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_all_operate,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_all_operate{line-height:68px;float:left}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_all_operate .remindme_all_now_count,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_all_operate .remindme_all_now_count{font-size:18px;color:#555;text-align:center;display:inline-block}
+.remindme_widget_list_container_all .remindme_list_container li .remindme_all_operate .btn_remindme_tip,.remindme_widget_list_container_all .remindme_list_container .remindme_list_all .remindme_all_operate .btn_remindme_tip{display:inline-block}
+.remindme_widget_list_container_all .remindme_list_foot{display:none}
+.one_remindme_widget_list_container .remindme_list_container li .remindme_all_operate,.one_remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_all_operate{line-height:68px;float:left}
+.one_remindme_widget_list_container .remindme_list_container li .btn_remindme_prev,.one_remindme_widget_list_container .remindme_list_container .remindme_list_all .btn_remindme_prev{display:none}
+.one_remindme_widget_list_container .remindme_list_container li .remindme_all_now_count,.one_remindme_widget_list_container .remindme_list_container .remindme_list_all .remindme_all_now_count{display:none}
+.one_remindme_widget_list_container .remindme_list_container li .btn_remindme_next,.one_remindme_widget_list_container .remindme_list_container .remindme_list_all .btn_remindme_next{display:none}
+.one_remindme_widget_list_container .remindme_list_container li .btn_remindme_tip,.one_remindme_widget_list_container .remindme_list_container .remindme_list_all .btn_remindme_tip{display:none}
+.remindme_time_tip{position:absolute;height:156px;overflow-y:auto;width:99px;background-color:#fff;border:1px solid #ddd;color:#666;font-size:12px}
+.remindme_time_tip li{cursor:pointer;padding:0 3px;line-height:24px;padding-left:18px}
+.remindme_time_tip li:hover{background-color:#EDEEF0}
+.guidance .center-cover-wrap{width:100%;height:100%}
+.guidance .center-wrap{width:760px;height:460px;position:relative;background-color:#fff;margin:0 auto;z-index:1901;overflow:hidden}
+.guidance .center-wrap .close-btn{position:absolute;right:0;top:0;z-index:1902;font-size:30px;color:#acb7bf;cursor:pointer}
+.guidance .center-wrap .close-btn:hover{color:#005999}
+.guidance .slide{position:relative;width:760px;height:460px;overflow:hidden}
+.guidance .slide .panel{position:relative;width:760px;height:460px;float:left;list-style:none}
+.guidance .slide .panel .content{width:100%;height:100%}
+.guidance .switchable-triggers{position:absolute;bottom:5px;z-index:1902}
+.guidance .switchable-triggers li{position:relative;list-style:none;left:0;float:left;width:10px;height:10px;border-radius:10px;margin-left:8px;background-color:#add9d1;cursor:pointer}
+.guidance .switchable-triggers li.current{width:30px;background-color:#2faa93;transition:width .3s ease}
+.guidance .toggle{position:absolute;top:220px}
+.guidance .toggle span{display:inline-block;cursor:pointer;color:#000;font-size:30px;color:#d8d8d8}
+.guidance .toggle span:hover{color:#005999}
+.guidance .toggle .disabled{opacity:0;filter:alpha(opacity=0)}
+.guidance .toggle #prev{position:absolute;font-size:50px;left:-15px;top:0}
+.guidance .toggle #next{position:absolute;font-size:50px;left:725px;top:0}
+.guidance .page-common{width:100%;height:100%;font-family:PingFangSC}
+.guidance .page-common .left{width:380px;height:380px;float:left;margin-left:25px;margin-top:40px}
+.guidance .page-common .right{float:left;margin-top:105px;margin-left:20px;width:305px}
+.guidance .page-common .right .title{font-family:PingFangSC;line-height:60px;font-size:34px;font-weight:300;color:#2faa93}
+.guidance .page-common .right .detail{margin:10px 0 40px;font-size:14px;line-height:24px;color:#667580}
+.guidance .page-common .right .detail-item{margin-bottom:5px}
+.manage-guidance .addData{width:100%;height:100%;font-family:PingFangSC}
+.manage-guidance .addData .left{width:380px;height:380px;float:left;margin-left:25px;margin-top:40px}
+.manage-guidance .addData .left img{width:100%;height:100%}
+.manage-guidance .addData .right{float:left;margin-top:105px;margin-left:20px;width:305px}
+.manage-guidance .addData .right .title{font-family:PingFangSC;line-height:60px;font-size:34px;font-weight:300;color:#2faa93}
+.manage-guidance .addData .right .detail{margin-top:10px;font-size:14px;line-height:24px;color:#667580}
+.manage-guidance .addData .right .detail .kao-he-ico{display:inline-block;margin-right:8px;font-size:15px;color:#47c17f}
+.manage-guidance .addData .right .detail .detail-item{margin-bottom:5px}
+.manage-guidance .learn .left{background:url(../../images/guidance/one.png) no-repeat center center}
+.manage-guidance .process .left{background:url(../../images/guidance/two.png) no-repeat center center}
+.manage-guidance .analysis .left{background:url(../../images/guidance/three.png) no-repeat center center}
+.manage-guidance .analysis .right .more{margin-top:30px;font-size:12px;font-weight:400;color:#acb7bf}
+.manage-guidance .analysis .right .more a{display:inline-block;margin-left:4px;font-size:12px;font-weight:400;color:#1687d9;text-decoration:none}
+.manage-guidance .analysis .right .more a:hover{color:#005999}#BizQQWAP{position:fixed;width:36px;height:122px;bottom:38px;right:0;background:url(../../images/onlineserver.jpeg);cursor:pointer;z-index:1019}
+.tu-main-container .project_main_region,.tu-main-container .tt_daily_container{padding-right:0}
+.tm-tenant-info__main-list-item-title2{display:inline-block;width:90px;height:34px;line-height:34px;color:#647481;font-size:14px;background-color:#F5F8FA;border-left:3px solid #8379D6;text-indent:10px}
+
+.tm-invite-root__main-titleicon3{background-color:#f86c15}
+.tm-tenant-info__main-list-item-title3{display:inline-block;width:90px;height:34px;line-height:34px;color:#647481;font-size:14px;background-color:#F5F8FA;border-left:3px solid #f86c15;text-indent:10px}
+
+.tm-invite-root__main-titleicon4{background-color:#1587D9}
+.tm-tenant-info__main-list-item-title4{display:inline-block;width:90px;height:34px;line-height:34px;color:#647481;font-size:14px;background-color:#F5F8FA;border-left:3px solid #1587D9;text-indent:10px}
+
+.tm-invite-root__main-titleicon5{background-color:#f62c1a}
+.tm-tenant-info__main-list-item-title5{display:inline-block;width:90px;height:34px;line-height:34px;color:#647481;font-size:14px;background-color:#F5F8FA;border-left:3px solid #f62c1a;text-indent:10px}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>资金统计</title>
+	<link rel="stylesheet" href="../components/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/adminLTE.min.css">
+	<script src="../components/echarts.min.js"></script>
+	<script src="../components/My97DatePicker/calendar.js"></script>
+	<script src="../components/My97DatePicker/WdatePicker.js"></script>
+</head>
+<body style="background-color: #ecf0f5;">
+	<section class="content">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="box">
+                <div class="box-body">
+                    <div class="form-inline" style="text-align:right; padding-right:20px;">
+             <a class="btn bg-purple btn-sm" href="../html/add.html">+增加</a>
+                                  
+                  </div>
+                </div>
+                <div class="box-body">
+                  <table class="table table-bordered">
+                    <tbody><tr>
+                      <th style="width: 50px">序号</th>
+                      <th>客户量范围</th>
+                      <th>提成类型</th>
+                      <th>金额/百分比</th>
+                      <th>操作</th>
+                    </tr>
+                        
+                    <tr class="change">
+                      <td>1  </td>
+                      <td>1~15</td>
+                      <td>百分比</td>
+                      <td>100</td>
+                     
+                      <td style="text-align:center">
+                           <a class="btn btn-success btn-xs" href="../html/add.html">编辑</a>&nbsp;&nbsp;
+                            <a class="btn btn-danger btn-xs" onclick="aa(19)">删除</a>&nbsp;&nbsp;
+                         
+                         
+
+                      </td>
+                    </tr>
+                     
+                    <tr class="change">
+                      <td>2  </td>
+                      <td>1~30</td>
+                      <td>每单/元</td>
+                      <td>250</td>
+                     
+                      <td style="text-align:center">
+                           <a class="btn btn-success btn-xs" href="../html/add.html">编辑</a>&nbsp;&nbsp;
+                            <a class="btn btn-danger btn-xs" onclick="aa(20)">删除</a>&nbsp;&nbsp;
+                         
+                         
+
+                      </td>
+                    </tr>
+                     
+                    <tr class="change">
+                      <td>3  </td>
+                      <td>30~999999</td>
+                      <td>每单/元</td>
+                      <td>300</td>
+                     
+                      <td style="text-align:center">
+                           <a class="btn btn-success btn-xs" href="../html/add.html">编辑</a>&nbsp;&nbsp;
+                            <a class="btn btn-danger btn-xs" onclick="aa(21)">删除</a>&nbsp;&nbsp;
+                         
+                         
+
+                      </td>
+                    </tr>
+                     
+                  
+                   
+                  </tbody></table>
+                </div><!-- /.box-body -->
+                <div class="box-footer clearfix">
+                  <ul class="pagination pagination-sm no-margin pull-right">
+                        
+
+<!--记录总数只有一页，AspNetPager已自动隐藏，若需在只有一页数据时显示AspNetPager，请将AlwaysShow属性值设为true！-->
+
+
+
+                  </ul>
+                </div>
+              </div><!-- /.box -->
+            </div>       
+        </div>
+           </section>
+</body>
+</html>

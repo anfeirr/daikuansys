@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>资金统计</title>
+	<link rel="stylesheet" href="../components/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/adminLTE.min.css">
+  <link rel="stylesheet" href="../css/cm.css">
+  <link rel="stylesheet" href="../components/all-170.min.css">
+  <link rel="stylesheet" href="../css/index-1706.css">
+  <script src="../js/jquery.min.js"></script>
+	<script src="../components/echarts.min.js"></script>
+	<script src="../components/My97DatePicker/calendar.js"></script>
+	<script src="../components/My97DatePicker/WdatePicker.js"></script>
+</head>
+<body style="background:#ffffff;" marginwidth="0">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h4 style="display: inline-block;" class="modal-title" id="titleDialog">记账</h4>
+          <a style="background-color: #f86c15;
+    color: #fff;float: right;" href="../html/zijingchi.html" class="tu-btn tu-btn-small tu-btn-sure1">返回</a>
+        </div>
+        <div class="modal-body">
+          <table style="font-size: 13px;margin-left:1px;" class="table table-bordered table-striped row" id="detailTable">
+
+
+
+
+                          
+                        <tbody><tr><td>记账类型</td><td>
+                         <select name="ddl_zhichu" id="ddl_zhichu" class="form-control input-sm time" style="width:350px;">
+  <option selected="selected" value="-1">支出</option>
+  <option value="1">收入</option>
+
+</select>
+                             </td></tr>
+                           <tr><td>金额</td><td>
+                        <input name="txt_jine" type="text" id="txt_jine" class="form-control input-sm time">
+                             </td></tr>
+
+                            <tr><td>时间</td><td>
+                        <input name="txt_s4" type="text" value="2018-01-31 17:22" id="txt_s4" class="form-control input-sm time" onfocus="WdatePicker({skin:'twoer',dateFmt:'yyyy-MM-dd HH:mm',onpicked:function(dp){jsday(dp);}})">
+                             </td></tr>
+                                 <tr><td>备注</td><td>
+                        <textarea name="txt_s5" rows="2" cols="20" id="txt_s5" class="form-control input-sm time" style="height:50px;"></textarea>
+                             </td></tr>
+           
+          </tbody></table>
+                 
+        </div>
+        <div class="modal-footer" style="margin-top:-10px; padding-bottom:10px; padding-right:10px;text-align: center;">
+          
+                   
+                    <input type="button" value="保 存" class="btn bg-maroon btn-sm" id="btn_jz" onclick="jz();" style="width:80px;height: 32px;">
+
+
+        </div>
+      </div>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>资金统计</title>
+	<link rel="stylesheet" href="../components/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/adminLTE.min.css">
+	<script src="../components/echarts.min.js"></script>
+	<script src="../components/My97DatePicker/calendar.js"></script>
+	<script src="../components/My97DatePicker/WdatePicker.js"></script>
+</head>
+<body style="background-color: #ecf0f5;">
+	<section class="content">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="box">
+                <div class="box-body">
+                    <div class="form-inline">
+
+            开始时间：<input name="txt_start" type="text" value="2018-01-01" id="txt_start" class="form-control" onfocus="WdatePicker({skin:'twoer',dateFmt:'yyyy-MM-dd'})">&nbsp;&nbsp;结束时间：<input name="txt_end" type="text" value="2018-01-31" id="txt_end" class="form-control" onfocus="WdatePicker({skin:'twoer',dateFmt:'yyyy-MM-dd'})">
+                         &nbsp;&nbsp; <input type="submit" name="btn_search" value="搜 索" id="btn_search" class="btn bg-purple btn-sm">
+         
+                    </div>
+                </div>
+                <div class="box-body">
+                  <table class="table table-bordered">
+                    <tbody><tr>
+                        <th style="width:50px">序号</th>
+                      <th>姓名</th>
+                      <th>客户量</th>
+                      <th>借款总额</th>
+                      <th>实际收款</th>
+                      <th>已收保证金</th>
+                      <th>已收管理费</th>
+                      <th>已收其他费用</th>
+                    </tr>
+                        
+               <tr>
+                      <td>1  </td>
+                   <td>admin</td>
+                      <td>30</td>
+                      <td>11854437</td>
+                      <td>371960</td>
+                    <td>28380</td>
+                    <td>10100</td>
+                    <td>2035</td>
+                   
+                    </tr>
+                     
+               <tr>
+                      <td>2  </td>
+                   <td>蒋冰倩</td>
+                      <td>1</td>
+                      <td>10000</td>
+                      <td></td>
+                    <td>1000</td>
+                    <td>500</td>
+                    <td>500</td>
+                   
+                    </tr>
+                     
+               <tr>
+                      <td>3  </td>
+                   <td>蒋冰倩</td>
+                      <td>1</td>
+                      <td>5000</td>
+                      <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                   
+                    </tr>
+                     
+               <tr>
+                      <td>4  </td>
+                   <td>ceshi</td>
+                      <td>1</td>
+                      <td>200000</td>
+                      <td></td>
+                    <td>0</td>
+                    <td>550</td>
+                    <td>0</td>
+                   
+                    </tr>
+                     
+               <tr>
+                      <td>5  </td>
+                   <td>张龙</td>
+                      <td>1</td>
+                      <td>5000</td>
+                      <td></td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                   
+                    </tr>
+                     
+               <tr>
+                      <td>6  </td>
+                   <td></td>
+                      <td>3</td>
+                      <td>26000</td>
+                      <td>3069</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                   
+                    </tr>
+                     
+               <tr>
+                      <td>7  </td>
+                   <td>张三</td>
+                      <td>1</td>
+                      <td>10000</td>
+                      <td></td>
+                    <td>1000</td>
+                    <td>200</td>
+                    <td>780</td>
+                   
+                    </tr>
+                     
+               <tr>
+                      <td>8  </td>
+                   <td>啊啊啊是</td>
+                      <td>1</td>
+                      <td>10000</td>
+                      <td></td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                   
+                    </tr>
+                     
+                        <tr class="mouse click">
+                        <td style="">&nbsp;</td>
+                        <td><span style="font-weight: bolder; color: red">总和</span></td>
+                        <td><span style="font-weight: bolder; color: red">39</span></td>
+                        <td><span style="font-weight: bolder; color: red">12120437</span></td>
+                        <td><span style="font-weight: bolder; color: red">375030</span></td>
+                        <td><span style="font-weight: bolder; color: red">30380</span></td>
+                        <td><span style="font-weight: bolder; color: red">11350</span></td>
+                        <td><span style="font-weight: bolder; color: red">3315</span></td>
+
+                    </tr>
+                  </tbody></table>
+                </div>
+              </div>
+            </div>       
+        </div>
+        </section>
+</body>
+</html>

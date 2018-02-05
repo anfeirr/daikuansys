@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>客户统计</title>
+	<link rel="stylesheet" href="../components/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/adminLTE.min.css">
+	<script src="../components/echarts.min.js"></script>
+	<script src="../components/My97DatePicker/calendar.js"></script>
+	<script src="../components/My97DatePicker/WdatePicker.js"></script>
+</head>
+<body style="background-color: #ecf0f5;">
+	<section class="content">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="box">
+                <div class="box-body">
+                    <div class="form-inline">
+
+            开始时间：<input name="txt_start" type="text" value="2018-01-01" id="txt_start" class="form-control" onfocus="WdatePicker({skin:'twoer',dateFmt:'yyyy-MM-dd'})">&nbsp;&nbsp;结束时间：<input name="txt_end" type="text" value="2018-01-31" id="txt_end" class="form-control" onfocus="WdatePicker({skin:'twoer',dateFmt:'yyyy-MM-dd'})">
+                         &nbsp;&nbsp; <input type="submit" name="btn_search" value="搜 索" id="btn_search" class="btn bg-purple btn-sm">
+         
+                	</div>
+                </div>
+                <div class="box-body">
+                  <table class="table table-bordered">
+                    <tbody><tr>
+                       <th>总进件数</th>
+                      <th>通过总数</th>
+                      <th>结清总数</th>
+                      <th>坏账总数</th>
+                      <th>逾期总数</th>
+                       <th>正常还款数</th>
+                    </tr>
+                   
+                            <tr class="mouse click" style="font-size:18px;">
+                                <td class="list-text">65</td>
+                                <td class="list-text" style="color:green">49</td>
+                                <td class="list-text" style="color:blue">14</td>
+                                <td class="list-text">2</td>
+                                <td class="list-text" style=" color:red">4</td>
+                                <td class="list-text">16</td>
+                            </tr>
+        
+                  </tbody></table>
+                </div>
+                  
+                  
+                <div class="box-body">
+                	<div id="main" style="width: 100%;height: 450px;"></div>
+                
+            	</div>     
+              </div>
+            </div>       
+        </div>
+        <script type="text/javascript">
+                   function main() {
+                            // 基于准备好的dom，初始化echarts图表
+                            var myChart = echarts.init(document.getElementById('main'));
+
+
+                            var option = {
+                                color: [
+                                '#44B7D3', '#E42B6D', 'blue', '#f18c10', 'red', 'green'
+                                ],
+                                title: {
+                                    text: '',
+                                    subtext: ''
+                                },
+                                tooltip: {
+                                    trigger: 'axis'
+                                },
+
+                                legend: {
+                                    data: ['总进件数', '通过数', '结清数', '坏账数', '逾期数', '正常还款数']
+                                },
+                                toolbox: {
+                                    show: false,
+                                    feature: {
+                                        //mark: { show: true },
+                                        //dataView: { show: true, readOnly: false },
+                                        //magicType: { show: true, type: ['line', 'bar'] },
+                                        //restore: { show: true },
+                                        //saveAsImage: { show: true }
+                                    }
+                                },
+                                calculable: true,
+                                xAxis: [
+                                    {
+                                        type: 'category',
+                                        data: ['公司']
+                                    }
+                                ],
+                                yAxis: [
+                                    {
+                                        type: 'value'
+                                    }
+                                ],
+
+                                series: [
+                                    {
+                                        name: '总进件数',
+                                        type: 'bar',
+                                        itemStyle: {
+                                            normal:
+                                            {
+                                                label: {
+                                                    show: true,
+                                                    position: 'top'
+                                                }
+                                            }
+                                        },
+                                        data: [65]
+                                    },
+                                    {
+                                        name: '通过数',
+                                        type: 'bar',
+                                        itemStyle: {
+                                            normal:
+                                            {
+                                                label: {
+                                                    show: true,
+                                                    position: 'top'
+                                                }
+                                            }
+                                        },
+                                        data: [49]
+                                    },
+                                    {
+                                        name: '结清数',
+                                        type: 'bar',
+                                        itemStyle: {
+                                            normal:
+                                            {
+                                                label: {
+                                                    show: true,
+                                                    position: 'top'
+                                                }
+                                            }
+                                        },
+                                        data: [14]
+                                    },
+                                    {
+                                        name: '坏账数',
+                                        type: 'bar',
+                                        itemStyle: {
+                                            normal:
+                                            {
+                                                label: {
+                                                    show: true,
+                                                    position: 'top'
+                                                }
+                                            }
+                                        },
+                                        data: [2]
+                                    },
+                                    {
+                                        name: '逾期数',
+                                        type: 'bar',
+                                        itemStyle: {
+                                            normal:
+                                            {
+                                                label: {
+                                                    show: true,
+                                                    position: 'top'
+                                                }
+                                            }
+                                        },
+                                        data: [4]
+                                    },
+                                    {
+                                        name: '正常还款数',
+                                        type: 'bar',
+                                        itemStyle: {
+                                            normal:
+                                            {
+                                                label: {
+                                                    show: true,
+                                                    position: 'top'
+                                                }
+                                            }
+                                        },
+                                        data: [16]
+                                    }
+                                ]
+                            };
+
+                            // 为echarts对象加载数据
+                            myChart.setOption(option);
+                        }
+                        main();
+                </script>
+</body>
+</html>
